@@ -11,27 +11,11 @@ This week's lab is meant to introduce you to some useful methods and processes f
 
 This week we will also introduce Python modules and files.
 
-## Setup
+## setup
+
+*(As of January 2026)*
 
 1. [Fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo#forking-a-repository) this repository.
-2. [Create a Codespace](https://docs.github.com/en/codespaces/developing-in-a-codespace/creating-a-codespace-for-a-repository#creating-a-codespace-for-a-repository) for your repository. Use this to view the lab notebook.
-3. This week' exercise will require you to create a separate GitHub repository. Your submission for this week will be *that* repository, not this one. See the *exercises.ipynb* notebook for more details.
-
-## Packages Available:
-
-The environment for this week is built with the following environment.yml:
-
-```yml
-name: week-4
-dependencies:
-  - python=3.11
-  - pip
-  - pip:
-    - ipykernel  # for Jupyter Notebook
-    - streamlit
-    - seaborn
-    - pandas
-    - numpy
-```
-
-*Note: you are welcome to install more packages in your codespace, but they will not be used by the autograder.*
+2. Clone this repository using [VS Code](https://code.visualstudio.com/docs/sourcecontrol/quickstart) or using [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository#cloning-a-repository).
+3. See the [environment.yml](./environment.yml) file. Create this environment locally using `conda env create -f environment.yml` and load it, or use an existing environment that already has these packages installed.
+4. This week' exercise will require you to create a separate GitHub repository. Your submission for this week will be *that* repository, not this one. See the *exercises.ipynb* notebook for more details.
